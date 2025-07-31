@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    margin-top: 10ch;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10ch;
+}
+
+.centerb {
+    text-align: center; 
+    padding-top: 30px;
+}
+
+img{
+    border-radius: 20px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#mypic{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
