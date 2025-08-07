@@ -47,6 +47,18 @@ def win3():
 def lost3():
     return render_template("lost3.html")
 
+@app.route("/G4")
+def G4():
+    return render_template("G4.html")
+
+@app.route("/win4")
+def win4():
+    return render_template("win4.html")
+
+@app.route("/lost4")
+def lost4():
+    return render_template("lost4.html")
+
 # main driver function
 if __name__ == '__main__':
     app.run(debug=True)
